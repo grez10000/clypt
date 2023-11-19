@@ -1,0 +1,54 @@
+body{
+    background-color: White;
+}
+
+table{
+    width: 75vh;
+    height: 75vh;
+    border-radius: 5vh;
+    border-spacing: 5vh;
+}
+
+.mainCube{
+    width: 95%;
+    height: 95vh;
+    border-radius: 5vh;
+    border: 1vh solid black;
+}
+
+.driverLogo{
+    float: left;
+    width: 50vh;
+    height: auto
+}
+
+td {
+    font-size: 5vh;
+    border: 1vh solid black;
+    outline: 1vh solid #df04e8;
+    border-radius: 5vh;
+    transition: border 0.15s, outline 0.15s, transform 0.15s; 
+    cursor: pointer;
+  }
+  
+  td:active {
+    outline: 0.9vh solid rgb(255, 182, 193);
+    transform: scale(0.98);
+  }
+  
+
+.driveLogo{
+    width: 50vh;
+    height: auto;
+}
+
+.title{
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10vh;
+}
+
+.imgLogo{
+    width: 15vh;
+    height: auto;
+}
